@@ -24,7 +24,7 @@ Execute following command:
 
 ## Switch to different branch
 
-All your tasks are presented in different branches ordered in ascending order.
+All homeworks are presented in different branches ordered in ascending order.
 
 To switch to another branch use the following command, inside project folder: `git checkout (branch-name)`
 
@@ -43,3 +43,10 @@ In order to keep your project organized, it is suggested to stick to the followi
 ├── index.html	# starting page
 └── index.css	# shared css styles, resets, variables, etc.
 ```
+
+## Usefull courses
+| Site | Email | Password |
+| :----: | :----: | :----: |
+| <img src="https://user-images.githubusercontent.com/66704768/206873991-d9f671a1-af8e-4b60-8e8c-bbe96e45f9a0.png" height="50"/> | roglic@quantox.com | rtEcErAVai |
+| <img src="https://user-images.githubusercontent.com/66704768/206874519-38cee828-fb29-4b09-83c6-62af2cf26aed.png" height="50"/> | roglic@quantox.com | rtEcErAVai |
+
