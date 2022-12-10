@@ -47,6 +47,15 @@ In order to keep your project organized, it is suggested to stick to the followi
 ## Usefull courses
 | Site | Email | Password |
 | :----: | :----: | :----: |
-| <img src="https://user-images.githubusercontent.com/66704768/206873991-d9f671a1-af8e-4b60-8e8c-bbe96e45f9a0.png" height="50"/> | roglic@quantox.com | rtEcErAVai |
-| <img src="https://user-images.githubusercontent.com/66704768/206874519-38cee828-fb29-4b09-83c6-62af2cf26aed.png" height="50"/> | roglic@quantox.com | rtEcErAVai |
+| [<img src="https://user-images.githubusercontent.com/66704768/206873991-d9f671a1-af8e-4b60-8e8c-bbe96e45f9a0.png" height="50"/>](https://www.pluralsight.com/) | roglic@quantox.com | rtEcErAVai |
+| [<img src="https://user-images.githubusercontent.com/66704768/206874519-38cee828-fb29-4b09-83c6-62af2cf26aed.png" height="50"/>](https://www.udemy.com/) | roglic@quantox.com | rtEcErAVai |
 
+## Useful sites
+
+> [Level up CSS skills](https://cssbattle.dev/)
+
+> [Level up programming skills](https://leetcode.com/)
+
+> [Computer science fundamentals](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
+
+> [Sharpen layout building skills](https://www.frontendmentor.io/)
