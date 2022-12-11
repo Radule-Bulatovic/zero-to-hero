@@ -6,16 +6,24 @@ It's highly suggested to finnish [web design](https://www.freecodecamp.org/learn
 
 Design files with .fig extension can be opened using [this](https://www.figma.com/) site.
 
+---
+---
 ## Table 1
 
 Recreate table layout displayed on the picture below
 
 ![Screenshot from 2022-12-11 12-33-55](https://user-images.githubusercontent.com/66704768/206912163-142b8be6-8b03-4069-8677-7c8133a88381.png)
 
+---
+---
 ## Table 2
 
 Recreate table layout displayed on the picture below
 
+![image](https://user-images.githubusercontent.com/66704768/206935663-4c7460cf-db68-41de-bc9f-9a57313f68e4.png)
+
+---
+---
 ## IFrame
 
 Make info.html page which will have a table with 2 rows and 3 columns. Inside of each table cell should be an iframe element. Below the table should be a list of 6 elements where each element should represent link that leads to sites which are inside the table iframes.
@@ -30,6 +38,8 @@ Resulting site should be similar to the picture below
 
 ![Screenshot from 2022-12-11 15-33-13](https://user-images.githubusercontent.com/66704768/206912184-fd808ddc-2732-4c26-bc21-fdc11a73c376.png)
 
+---
+---
 ## Light
 
 Make light.html page which should contain iframe element which should have dimensions 100px X 200px. Below the element there should be links "ON" and "OFF".
@@ -44,16 +54,24 @@ Resulting site should be similar to the picture below
 
 ![Screenshot from 2022-12-11 16-20-27](https://user-images.githubusercontent.com/66704768/206912241-be7c3247-3db1-45bb-94fc-5752bfbbd3c4.png)
 
+---
+---
 ## Basic landing page
+
+![Untitled-2022-12-12-0011](https://user-images.githubusercontent.com/66704768/206935746-b7a0f64e-2a9b-4891-97f5-f155a28f3df8.png)
 
 Design and create a landing page using the provided schema.
 
 > Example is provided inside folders.
 
+---
+---
 ## FAQ accordion card
 
 Recreate [webpage](https://faq-accordion-card-indol.vercel.app/) layout. All designs, assets and starter code is in the zip files.
 
+---
+---
 ## Meet landing page
 
 Recreate [webpage](https://meet-landing-page-woad.vercel.app/) layout. All designs, assets and starter code is in the zip files.
