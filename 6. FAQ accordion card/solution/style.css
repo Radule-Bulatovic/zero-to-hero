@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans');
+@keyframes hide {
+    from {
+        height: 100%;
+    }
+    to {
+        height: 0;
+    }
+}
+
+@keyframes show {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+@keyframes flip {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes flip-back {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Kumbh Sans";
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: white;
+    border-radius: 23px;
+    width: 90%;
+    height: 70%;
+    box-shadow: 0px 50px 20px -20px rgb(0 0 0 / 20%);
+}
+
+.outer-images {
+    position: relative;
+}
+
+.mobile-image {
+    position: absolute;
+    width: 90%;
+}
+
+.mobile-shadow-image {
+    position: relative;
+    width: 82%;
+    top: 94px;
+    left: 20px;
+    z-index: 10;
+}
+
+.desktop-image,
+.desktop-box-image,
+.desktop-shadow-image {
+    display: none;
+}
+
+.faq {
+    margin-top: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    position: relative;
+    background: none;
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button::after {
+    content: "";
+    width: 80%;
+    height: 1px;
+    background: gray;
+}
+
+.question {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.arrow-img {
+    object-fit: contain;
+    animation: flip-back 250ms forwards;
+}
+
+.answer {
+    width: 80%;
+    margin-top: 20px;
+    text-align: start;
+    animation: show 250ms forwards;
+    overflow: hidden;
+}
+
+.hide {
+    animation: hide 250ms forwards;
+}
+
+.flip {
+    animation: flip 250ms forwards;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        flex-direction: row;
+    }
+    .mobile-image,
+    .mobile-shadow-image {
+        display: none;
+    }
+    .desktop-box-image {
+        display: unset;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 20vh;
+        width: 20vh;
+        transform: translate(-50%, -25%);
+    }
+    .desktop-image {
+        display: unset;
+        position: absolute;
+        left: -10%;
+        top: 50%;
+        transform: translate(0, -50%);
+        height: 80%;
+    }
+    .desktop-shadow-image {
+        display: unset;
+        position: absolute;
+        left: -42%;
+        top: 40%;
+        transform: translate(0, -50%);
+        height: 170%;
+    }
+    .card {
+        position: relative;
+        width: 70%;
+        overflow: hidden;
+    }
+    .faq {
+        margin: 5% 0 0 0;
+        height: 80%;
+        align-items: flex-start;
+        justify-content: center;
+        width: 50%;
+        float: right;
+    }
+    h1 {
+        margin-bottom: 15px;
+    }
+    button {
+        align-items: flex-start;
+    }
+}
