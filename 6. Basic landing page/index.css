@@ -1,0 +1,94 @@
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+  background-color: rgba(104, 187, 111, 0.4);
+}
+
+body {
+  font-family: "MuseoModerno", cursive;
+  color: white;
+  padding: 0;
+  margin: 0;
+  background-image: url(./assets/images/material-dark-green-uhd-8k-wallpaper.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  padding: 40px 100px;
+  justify-content: space-between;
+}
+
+header img {
+  width: 10%;
+  background-color: transparent;
+}
+
+header nav {
+  align-items: center;
+  display: flex;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+}
+
+header nav a:hover {
+  color: rgb(30, 255, 0);
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+  background-color: #07b53a;
+  border-radius: 45px;
+  padding: 10px 25px;
+}
+
+.login a:hover {
+  color: black;
+}
+
+main {
+  display: flex;
+  padding: 30px;
+}
+
+main section {
+  padding-right: 30px;
+  text-align: center;
+}
+
+main section h5 {
+  color: white;
+}
+
+main section p {
+  padding-bottom: 30px;
+}
+
+main section a {
+  text-decoration: none;
+  color: white;
+  background-color: #07b53a;
+  border-radius: 45px;
+  padding: 10px 25px;
+}
+
+main section a:hover {
+  color: black;
+}
+
+.img img {
+  border-radius: 25px;
+  width: 500px;
+}

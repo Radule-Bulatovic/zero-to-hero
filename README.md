@@ -1,5 +1,11 @@
 # Beginner exercises
 
+All exercises are focused on **html** and **css** and can be done without using javascript.
+
+It's highly suggested to finnish [web design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) course by the end of these challenges.
+
+Design files with .fig extension can be opened using [this](https://www.figma.com/) site.
+
 ## Table 1
 
 Recreate table layout displayed on the picture below
@@ -37,6 +43,12 @@ Resulting site should be similar to the picture below
 > Usefull tip: It is possible to change iframes src using link target attribute.
 
 ![Screenshot from 2022-12-11 16-20-27](https://user-images.githubusercontent.com/66704768/206912241-be7c3247-3db1-45bb-94fc-5752bfbbd3c4.png)
+
+## Basic landing page
+
+Design and create a landing page using the provided schema.
+
+> Example is provided inside folders.
 
 ## FAQ accordion card
 
