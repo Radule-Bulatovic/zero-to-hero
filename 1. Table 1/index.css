@@ -1,0 +1,9 @@
+th{
+    text-align: center;
+    background-color: darkgray;
+    font-weight: normal;
+}
+td {
+    border: 1px solid darkgray;
+    text-align: center
+}
