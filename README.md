@@ -8,7 +8,7 @@
 
 [**Finnished (New) Responsive Web Design Certification**](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 
-[**Finnished JavaScript Algorithms and Data Structures**](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+[**Finnished JavaScript Algorithms and Data Structures**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 
 ## Cloning repository locally
 
@@ -24,7 +24,7 @@ Execute following command:
 
 ## Switch to different branch
 
-All homeworks are presented in different branches ordered in ascending order.
+All homeworks are presented in different branches.
 
 To switch to another branch use the following command, inside project folder: `git checkout (branch-name)`
 
