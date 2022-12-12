@@ -1,61 +1,92 @@
-# Welcome to zero-to-hero course !
+# Advanced exercises
 
-## Requirements
+All exercises are focused on using **javascript** combined with beginer exercises knowledge.
 
-[**VS Code editor**](https://code.visualstudio.com/)
+It's highly suggested to finnish [javascript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) course by the end of these challenges.
 
-[**Git**](https://git-scm.com/download/win)
+---
 
-[**Finnished (New) Responsive Web Design Certification**](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+---
 
-[**Finnished JavaScript Algorithms and Data Structures**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+## Task list
 
-## Cloning repository locally
+Design and implement tasks app which should have following features:
 
-Navigate terminal to location in which you want to clone repository.
+- search functionality
+- displayed items should be clickable, on click the search input should be changed to item value, and the items list shoud only display clicked item
+- user should be able to select items using <kbd>Up</kbd>, <kbd>Down</kbd> and <kbd>Enter</kbd>
+  - if no item is selected both <kbd>Up</kbd> and <kbd>Down</kbd> arrow should select first item
+  - on <kbd>Enter</kbd> click search input should be filled with its value
+  - if selected element is first and <kbd>Up</kbd> arrow is pressed it should switch selection to last element, the same applies for last element and <kbd>Down</kbd> arrow
+- saving data in **cookie** or **localStorage**
 
-The easy way is to write `cmd` inside address bar shown on the picture below.
+---
 
-![capture](https://user-images.githubusercontent.com/66704768/206872745-7c26550d-1d2b-4363-a534-60196af9c4bb.PNG)
+---
 
-Execute following command: 
+## Tic-Tac-Toe game
 
-`git clone https://github.com/Radule-Bulatovic/zero-to-hero.git`
+Design and implement tic-tac-toe game which should have following features:
 
-## Switch to different branch
+- both players should have **names**
+- game always starts with X player
+- if it's a draw the game should restart itself
+- if there is a winner the game should display which player won using alert
+  > Implement using [Sweet alert](https://sweetalert2.github.io/)
 
-All homeworks are presented in different branches.
+---
 
-To switch to another branch use the following command, inside project folder: `git checkout (branch-name)`
+---
 
-## Suggested project structure
+## Palindrome checker
 
-In order to keep your project organized, it is suggested to stick to the following project structure.
+Design and implement palindrome checker which should have following features:
 
-```bash
-├── src 	# .js files
-├── assets
-│   ├── images
-│   ├── icons
-│   └── fonts
-├── styles 	# .css files
-├── pages 	# .html files
-├── index.html	# starting page
-└── index.css	# shared css styles, resets, variables, etc.
-```
+- on start ask user for the amount of characters the word will have
+- generate as much inputs as user defined in previous step
+- inputs only accept <kbd>A</kbd> - <kbd>Z</kbd>, <kbd>a</kbd> - <kbd>z</kbd> and <kbd>Space</kbd>
+- displays error message if the input criteria aren't met
+- implement add button which will append new input field
+- implement X button which will remove one input field
+- on each input change app should render if the current string is palindrome or not
 
-## Usefull courses
-| Site | Email | Password |
-| :----: | :----: | :----: |
-| [<img src="https://user-images.githubusercontent.com/66704768/206873991-d9f671a1-af8e-4b60-8e8c-bbe96e45f9a0.png" height="50"/>](https://www.pluralsight.com/) | roglic@quantox.com | rtEcErAVai |
-| [<img src="https://user-images.githubusercontent.com/66704768/206874519-38cee828-fb29-4b09-83c6-62af2cf26aed.png" height="50"/>](https://www.udemy.com/) | roglic@quantox.com | rtEcErAVai |
+---
 
-## Useful sites
+---
 
-> [Level up CSS skills](https://cssbattle.dev/)
+## Quiz app
 
-> [Level up programming skills](https://leetcode.com/)
+Design and implement Quiz app which should have following features:
 
-> [Computer science fundamentals](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
+- have at least 10 questions which have multiple aswers
+- questions should have either one or more correct aswers
+- on correct answer load next question
+- on incorrect answer display how many aswers were correct and prompt user if he wants to start new quiz
+- if all questions were answered correctly display success message
+- questions should always be displayed in different order
 
-> [Sharpen layout building skills](https://www.frontendmentor.io/)
+---
+
+---
+
+## Pomodoro clock
+
+Design and implement pomodoro clock which should have following features:
+
+- should have 3 tabs which say "Pomodoro", "Short Break" and "Long Break"
+- pomodoro tab displays 25 minutes, short break 5 minutes, long break 10 minutes
+- start button which starts the timer or resumes if paused, stop which pauses timer, reset which resets timer back to its starting value
+- browser tab should display pomodoro clock icon and timers value
+
+---
+
+---
+
+## Slider
+
+Design and implement image slider which should have following features:
+
+- display left and right arrows and slide images according to which one is clicked
+- while cursor is inside slider allow user to slide images using keyboard buttons
+- on click image should take up 90% of viewport, and while expanded should display X button at top right corner which shrinks image back to its original size
+- all functionalites should persist in expanded mode as they are in shrinked mode

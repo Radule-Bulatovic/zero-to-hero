@@ -1,0 +1,86 @@
+.container {
+  margin: 10% auto auto auto;
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+  background-image: url("https://picsum.photos/id/2/300/200");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: background-image 500ms, width 250ms, height 250ms;
+}
+
+.expand {
+  width: 90vw;
+  height: 90vh;
+  transition: width 500ms, height 500ms;
+}
+
+.arrow,
+.arrow {
+  text-align: center;
+  --temp: 1em;
+  width: var(--temp);
+  height: var(--temp);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.left {
+  left: 2em;
+}
+
+.right {
+  right: 2em;
+}
+
+.arrow:hover,
+.arrow:hover {
+  background-color: white;
+  transition: background-color 250ms ease-in-out;
+}
+
+.cross {
+  display: none;
+  --temp: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--temp);
+  height: var(--temp);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cross::after {
+  position: absolute;
+  width: 3px;
+  height: 60%;
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotate(45deg);
+}
+
+.cross::before {
+  position: absolute;
+  width: 3px;
+  height: 60%;
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotate(-45deg);
+}

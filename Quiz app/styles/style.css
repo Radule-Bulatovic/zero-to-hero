@@ -1,0 +1,159 @@
+:root {
+    --bg: rgb(250, 27, 107);
+    --accents: rgb(70, 150, 175);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    background: var(--bg);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5em auto;
+    width: 80vw;
+    height: 90vh;
+    background: var(--accents);
+    color: white;
+}
+
+.question {
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+    background: white;
+}
+
+.question-number {
+    color: var(--bg);
+    margin: auto;
+}
+
+.question-img-div {
+    text-align: center;
+}
+
+.category-photo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.question-text {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+}
+
+.question-text__text {
+    width: 80%;
+    margin: auto;
+    color: black;
+}
+
+.indicator-div {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ind {
+    width: 0.5em;
+    height: 0.5em;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.ind--current {
+    background: var(--bg);
+}
+
+.ans-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ans {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    text-align: center;
+    padding: 1em;
+    width: 80%;
+    margin: 1em;
+    position: relative;
+}
+
+.ans:hover {
+    background-color: white;
+    color: var(--accents);
+}
+
+.ans::before {
+    position: absolute;
+    content: "";
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    transform: rotate(45deg);
+    left: -4em;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ans:hover>.ans-number {
+    color: white;
+    background: var(--bg);
+}
+
+.ans-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    color: var(--accents);
+}
+
+.ans-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ans--selected {
+    background-color: white;
+    color: var(--accents);
+}
+
+.ans--selected>.ans-number {
+    color: white;
+    background: var(--bg);
+}
+
+.submit-btn {
+    border-radius: 50%;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 5%;
+}
+
+.submit-icon {
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.submit-btn:hover > i{
+    background-color: white;
+    color: var(--accents);
+}
