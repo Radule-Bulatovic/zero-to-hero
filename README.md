@@ -24,7 +24,7 @@ Execute following command:
 
 ## Switch to different branch
 
-All homeworks are presented in different branches.
+All exercises are presented in different branches.
 
 To switch to another branch use the following command, inside project folder: `git checkout (branch-name)`
 
