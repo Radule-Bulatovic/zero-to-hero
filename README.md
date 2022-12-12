@@ -4,7 +4,7 @@ All exercises are focused on using **javascript** combined with beginer exercise
 
 It's highly suggested to finnish [javascript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) course by the end of these challenges.
 
---
+---
 
 ---
 
