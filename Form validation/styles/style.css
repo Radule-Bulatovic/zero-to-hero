@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 800px;
+}
+
+.form-control {
+  position: relative;
+  margin: 2rem 0;
+}
+
+label {
+  position: absolute;
+  translate: 1rem -50%;
+  background-color: white;
+  padding: 0 0.5rem;
+}
+
+input,
+textarea {
+  font-size: 1.25rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+button {
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  border: 0;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+small {
+  color: red;
+}

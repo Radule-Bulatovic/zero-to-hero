@@ -16,6 +16,23 @@ Design and implement light switch which should have following features:
 - range slider which changes lighting gradually
 
 > Starter code is provided
+
+---
+---
+ ## Form validation
+
+Create contact form that will have following features
+
+- name input that accepts 2 words split with spacing, each word must have at least 5 characters 
+- email input which accepts up to 50 characters and must contain "@" and ".com" strings
+- birth date input which accepts dates that are older that 18 years
+- description input which is allowed to be empty
+- 2 buttons
+  - check which checks if all fields are valid and enables submit button to be clicked
+  - submit which is disabled by default and is enabled only if check button is clicked and everything is valid
+- error messages should be displayed under input fields with appropriate message
+---
+---
 ## Task list
 
 Design and implement tasks app which should have following features:

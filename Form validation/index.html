@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <script src="./src/form.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="form-control">
+        <label for="name">Full name:</label>
+        <input type="text" name="name" required />
+        <small id="name-error"></small>
+      </div>
+      <div class="form-control">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" required />
+        <small id="email-error"></small>
+      </div>
+      <div class="form-control">
+        <label for="date">Date of birth:</label>
+        <input type="date" name="date" required />
+        <small id="date-error"></small>
+      </div>
+      <div class="form-control">
+        <label for="description">Description:</label>
+        <textarea
+          name="description"
+          cols="30"
+          rows="10"
+          maxlength="100"
+        ></textarea>
+      </div>
+      <div class="form-control">
+        <button type="button">Check</button>
+        <button type="submit" disabled>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
