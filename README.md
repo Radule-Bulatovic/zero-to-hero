@@ -8,6 +8,14 @@ It's highly suggested to finnish [javascript](https://www.freecodecamp.org/learn
 
 ---
 
+## Light switch
+
+Design and implement light switch which should have following features:
+
+- switch toggling theme from light to dark
+- range slider which changes lighting gradually
+
+> Starter code is provided
 ## Task list
 
 Design and implement tasks app which should have following features:
@@ -19,6 +27,7 @@ Design and implement tasks app which should have following features:
   - on <kbd>Enter</kbd> click search input should be filled with its value
   - if selected element is first and <kbd>Up</kbd> arrow is pressed it should switch selection to last element, the same applies for last element and <kbd>Down</kbd> arrow
 - saving data in **cookie** or **localStorage**
+> Starter code is provided
 
 ---
 
@@ -32,7 +41,8 @@ Design and implement tic-tac-toe game which should have following features:
 - game always starts with X player
 - if it's a draw the game should restart itself
 - if there is a winner the game should display which player won using alert
-  > Implement using [Sweet alert](https://sweetalert2.github.io/)
+
+> Implement using [Sweet alert](https://sweetalert2.github.io/)
 
 ---
 

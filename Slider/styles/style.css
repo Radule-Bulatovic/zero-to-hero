@@ -13,13 +13,13 @@
 .expand {
   width: 90vw;
   height: 90vh;
-  transition: width 500ms, height 500ms;
+  transition: all 500ms;
 }
 
 .arrow,
 .arrow {
-  text-align: center;
   --temp: 1em;
+  text-align: center;
   width: var(--temp);
   height: var(--temp);
   position: absolute;
