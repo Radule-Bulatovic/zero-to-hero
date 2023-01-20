@@ -1,0 +1,107 @@
+[
+  {
+    "id": "MNE1496",
+    "name": "Bar",
+    "img": "./assets/cities-coats/Coat_of_Arms_of_Bar.png"
+  },
+  {
+    "id": "MNE1497",
+    "name": "Ulcinj",
+    "img": "./assets/cities-coats/Coat_of_Arms_of_Ulcinj.svg"
+  },
+  {
+    "id": "MNE1499",
+    "name": "Budva",
+    "img": "./assets/cities-coats/Budva-grb.gif"
+  },
+  {
+    "id": "MNE1500",
+    "name": "Cetinje",
+    "img": "./assets/cities-coats/Cetinje_Coat-of-Arms.svg"
+  },
+  {
+    "id": "MNE1501",
+    "name": "Rožaje",
+    "img": "./assets/cities-coats/Rozaje_Coat_of_Arms.svg"
+  },
+  {
+    "id": "MNE1503",
+    "name": "Plav",
+    "img": "./assets/cities-coats/PlavWeapon.png"
+  },
+  {
+    "id": "MNE1506",
+    "name": "Herceg Novi",
+    "img": "./assets/cities-coats/Great_Coat_of_Arms_of_Herceg_Novi.png"
+  },
+  {
+    "id": "MNE1507",
+    "name": "Kotor",
+    "img": "./assets/cities-coats/Coat_of_Arms_of_Kotor.png"
+  },
+  {
+    "id": "MNE1508",
+    "name": "Andrijevica",
+    "img": "./assets/cities-coats/CoatAN.jpg"
+  },
+  {
+    "id": "MNE1509",
+    "name": "Berane",
+    "img": "./assets/cities-coats/FinalniGrbBerane1.png"
+  },
+  {
+    "id": "MNE1510",
+    "name": "Bijelo Polje",
+    "img": "./assets/cities-coats/BijeloPoljeWeapon.png"
+  },
+  {
+    "id": "MNE1511",
+    "name": "Danilovgrad",
+    "img": "./assets/cities-coats/CoatDG.svg"
+  },
+  {
+    "id": "MNE1512",
+    "name": "Kolašin",
+    "img": "./assets/cities-coats/Kolasin_coat.gif"
+  },
+  {
+    "id": "MNE1513",
+    "name": "Mojkovac",
+    "img": "./assets/cities-coats/Mojkovac_coa.png"
+  },
+  {
+    "id": "MNE1514",
+    "name": "Nikšic",
+    "img": "./assets/cities-coats/Niksic-Grb.gif"
+  },
+  {
+    "id": "MNE1515",
+    "name": "Plužine",
+    "img": "./assets/cities-coats/Pluzine_coa.png"
+  },
+  {
+    "id": "MNE1516",
+    "name": "Pljevlja",
+    "img": "./assets/cities-coats/Pljevlja-grb.png"
+  },
+  {
+    "id": "MNE1517",
+    "name": "Podgorica",
+    "img": "./assets/cities-coats/Podgorica_Coat_of_Arms.png"
+  },
+  {
+    "id": "MNE1518",
+    "name": "Tivat",
+    "img": "./assets/cities-coats/MNE_Tivat_COA.svg"
+  },
+  {
+    "id": "MNE1519",
+    "name": "Šavnik",
+    "img": "./assets/cities-coats/SavnikWeapon.png"
+  },
+  {
+    "id": "MNE1520",
+    "name": "Žabljak",
+    "img": "./assets/cities-coats/Grb-Žabljak.png"
+  }
+]

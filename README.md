@@ -117,3 +117,18 @@ Design and implement image slider which should have following features:
 - while cursor is inside slider allow user to slide images using keyboard buttons
 - on click image should take up 90% of viewport, and while expanded should display X button at top right corner which shrinks image back to its original size
 - all functionalites should persist in expanded mode as they are in shrinked mode
+
+---
+
+---
+
+## Interactive map + custom select
+
+Design and implement interactive svg map and custom select which should have following features:
+
+- hovering over map municipalities should display tooltip which will tell user which municipality is selected
+- clicking on municipality should change municipality color and also change select value to selected municipality
+- select should display all municipalities except the one that is selected
+- select should be searchable
+- select should display municipality logo before its name
+- select change should be displayed on interactive map
