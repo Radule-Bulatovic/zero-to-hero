@@ -52,6 +52,8 @@ In order to keep your project organized, it is suggested to stick to the followi
 
 ## Useful sites
 
+> [Free courses](https://www.mooc.fi/en/)
+
 > [Level up CSS skills](https://cssbattle.dev/)
 
 > [Level up programming skills](https://leetcode.com/)
