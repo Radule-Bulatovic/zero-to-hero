@@ -1,5 +1,13 @@
+body {
+  display: grid;
+  place-items: center;
+  background-color: darkslategrey;
+}
+
 .map {
+  width: 40rem;
   display: flex;
+  flex-direction: column-reverse;
 }
 .map__container {
   position: relative;

@@ -1,4 +1,5 @@
 .map__select {
+  background-color: white;
   border-radius: 0.5rem;
   font-size: 1.5rem;
   position: relative;
@@ -80,6 +81,7 @@ li > img,
   position: absolute;
   width: 100%;
   display: block;
+  background-color: white;
 }
 
 .hidden {
